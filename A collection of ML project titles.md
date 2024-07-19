@@ -14,10 +14,11 @@
 
 
 ## Websites with ML/DL projects' list
-1. [50+ End-to-End Deep Learning Projects with Source Code](https://www.projectpro.io/projects/data-science-projects/deep-learning-projects)
-2. [20 Machine Learning Projects To Get You Hired | ProjectPro](https://medium.com/projectpro/20-machine-learning-projects-that-will-get-you-hired-in-2021-a89473f2d2c7) 
-3. Kaggle
-4. [23 Amazing Deep Learning Project Ideas | Source Code Included](https://data-flair.training/blogs/deep-learning-project-ideas/)
+1. [GitHub - ashishpatel26/ 500 AI Machine learning Deep learning Computer vision NLP Projects with code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file) 
+2. [50+ End-to-End Deep Learning Projects with Source Code](https://www.projectpro.io/projects/data-science-projects/deep-learning-projects)
+3. [20 Machine Learning Projects To Get You Hired | ProjectPro](https://medium.com/projectpro/20-machine-learning-projects-that-will-get-you-hired-in-2021-a89473f2d2c7) 
+4. Kaggle
+5. [23 Amazing Deep Learning Project Ideas | Source Code Included](https://data-flair.training/blogs/deep-learning-project-ideas/)
 
 
 
