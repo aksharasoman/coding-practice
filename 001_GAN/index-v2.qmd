@@ -34,7 +34,7 @@ A generator creates fake samples that mimic the real samples provided to the dis
 GAN loss function consists of two parts: generator loss and discriminator loss.
 
 ::: {.callout-note appearance="simple"}
-# GAN Training Strategy
+### GAN Training Strategy
 During generator training, the discriminator's weights are kept constant and are not updated, and vice versa.
 :::
 
@@ -85,7 +85,9 @@ For ease of understanding, you may refer to the [iPython notebook](https://githu
 ::: {.callout-tip collapse="true"}
 ### Further Readings
 1. A good intro blog with details of related problems: [link](https://pyimagesearch.com/2021/09/13/intro-to-generative-adversarial-networks-gans/)
-2. 
+2. [How can generative adversarial networks learn real-life distributions easily - Microsoft Research](https://www.microsoft.com/en-us/research/blog/how-can-generative-adversarial-networks-learn-real-life-distributions-easily/) 
+3. [Understanding Failure Modes of GAN Training | by Kartik Chaudhary | Medium](https://medium.com/game-of-bits/understanding-failure-modes-of-gan-training-eae62dbcf1dd)
+4. [DCGAN Paper](https://arxiv.org/pdf/1511.06434v2) 
 :::
 
 ::: {.callout-tip collapse="true"}
