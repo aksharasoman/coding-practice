@@ -5,7 +5,7 @@ project title source: https://www.projectpro.io/projects/data-science-projects/m
 ### Resources:
 1. [Deep Learning with PyTorch : Generative Adversarial Network](https://www.coursera.org/projects/deep-learning-with-pytorch-generative-adversarial-network#details) 
 ### Expected learnings:
-![[Pasted image 20240610154905.png|500]]
+![[images/Pasted image 20240610154905.png|500]]
 
 ### Let's start ...
 The hands on project on[ *Deep Learning with PyTorch : Generative Adversarial Network*](https://www.coursera.org/learn/deep-learning-with-pytorch-generative-adversarial-network/supplement/MhGNK/project-based-course-overview) is divided into 8 tasks.
@@ -110,7 +110,7 @@ def show_tensor_images(tensor_img,num_images = 16,size = (1,28,28)):
 DL - discriminator loss
 Distr: disdriminator
 GL- generator loss
-![[IMG_0537.jpeg]]
+![[images/IMG_0537.jpeg]]
 #### Task 5: Create Discriminator Network
 It is a binary classifier:classifies input image as a real image or fake image.
 Beforing implementing, let's understand [[Theory behind GAN]].
@@ -121,11 +121,11 @@ from torchsummary import summary
 ```
 
 there is repetitive component in the discriminator network: create a function block for it with variable parameters as inputs.
-![[Pasted image 20240701120941.png]]
+![[images/Pasted image 20240701120941.png]]
 
 **Linear Output layer**: we are not using sigmoid output layer: since BCEwithLogitsLoss() has sigmoid and BCE loss in a single layer which provides better stability. Binary cross entropy with logits loss will take raw inputs.
 #### Task 6: Create Generator Network
-![[Pasted image 20240702111035.png]]
+![[images/Pasted image 20240702111035.png]]
 
 formula for convtranspose2d() output shape computation:
 = (Hin-1)* stride + kernel_size
