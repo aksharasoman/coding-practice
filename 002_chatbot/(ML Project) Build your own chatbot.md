@@ -15,7 +15,7 @@ It is fun to build.
 	- To remember turns of a conversation, we can add memory *(See course 2)*
 		- LLM does not have memory on its own.
 - **Production**
-	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in course 3)*
+	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in  course 3)*
 
 ### Related deeplearning.ai Courses
 1. [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) : 1 hr 
