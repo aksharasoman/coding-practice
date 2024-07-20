@@ -8,7 +8,10 @@ It is fun to build.
 - **Memory**
 	- To remember turns of a conversation, we can add memory
 		- LLM does not have memory on its own.
-- 
+- **Production**
+	- Needs to be monitored to ensure safe and non-toxic conversations.
+
+
 
 #### Reference: 
 [Your Guide to Generative AI Courses - DeepLearning.AI](https://www.deeplearning.ai/resources/generative-ai-courses-guide/): outlines courses by DL.ai on chatbots.
