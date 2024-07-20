@@ -5,15 +5,12 @@ It is fun to build.
 	- Pre-training: a model is trained to predict the next word
 	- Fine-tuning: tunes a model to a particular task.
 		- For chat models: task is *Conversational*
+- **Memory**
+	- To remember turns of a conversation, we can add memory
+		- LLM does not have memory on its own.
 - 
 
 #### Reference: 
 [Your Guide to Generative AI Courses - DeepLearning.AI](https://www.deeplearning.ai/resources/generative-ai-courses-guide/): outlines courses by DL.ai on chatbots.
 
 
-# a
-## ada
-### adsad
-#### asds
-##### asda
-###### ada
