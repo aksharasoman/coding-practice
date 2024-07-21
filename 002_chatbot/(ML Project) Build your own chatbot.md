@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - mlproject
+  - gen-ai
 title: Build a chatbot for <?>
 author: Akshara Soman
 ---
