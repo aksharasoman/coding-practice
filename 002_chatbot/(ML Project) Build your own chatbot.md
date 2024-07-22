@@ -14,30 +14,13 @@ It is fun to build.
 	- Fine-tuning: tunes a model to a particular task.
 		- For chat models: task is *Conversational*
 - **Memory**
-	- To remember turns of a conversation, we can add memory *(See course 2)*
+	- To remember turns of a conversation, we can add memory *(See LangChain course by [[deeplearning.ai Courses for developing a chatbot|dl.ai]]) 
 		- LLM does not have memory on its own.
 - **Production**
-	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in  course 3)*
+	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in course 3 in the list given here:*  [deeplearning.ai Courses for developing a chatbot](deeplearning.ai%20Courses%20for%20developing%20a%20chatbot.md) )
 
-### Related deeplearning.ai Courses
-1. [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) : 1 hr 
-	1. uses OpenAI API
-	2. best practices of prompt engg. (writing effective prompts)
-	3. show how LLM APIs can be used for a variety of tasks:
-		- Summarizing (e.g., summarizing user reviews for brevity)
-		- Inferring (e.g., sentiment classification, topic extraction)
-		- Transforming text (e.g., translation, spelling & grammar correction)
-		- Expanding (e.g., automatically writing emails)
-	4. Build a custom chatbot (a pizza bot with GUI)
-2. [LangChain for LLM Application Development - DeepLearning.AI](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/) : 1 hr : need to invest  time to become adept at the langchain framework!
-	1. to take your chatbot to next level by 
-		1. adding memory
-		2. as reasoning agents
-		3. Q&A on proprietary documents
-3. [Building Systems with the ChatGPT API - DeepLearning.AI](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/) : 1 hr
-	1. Build a A customer service chatbot
-	2. Multistage prompts: to split complex tasks into a pipeline of subtasks
-	3. Evaluate your LLM inputs and outputs for safety, accuracy, and relevance
+### Implementation - Aspects to Consider
+1. OpenAI API key used in deeplearning.ai course is not free. Hence, instead of openai, use a free LLM 
 ### Reference: 
 [Your Guide to Generative AI Courses - DeepLearning.AI](https://www.deeplearning.ai/resources/generative-ai-courses-guide/): outlines courses by DL.ai on chatbots.
 
