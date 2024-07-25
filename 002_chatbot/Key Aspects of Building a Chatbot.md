@@ -8,4 +8,5 @@
 		- LLM does not have memory on its own.
 - **Production**
 	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in course 3 in the list given here:*  [deeplearning.ai Courses for developing a chatbot](deeplearning.ai%20Courses%20for%20developing%20a%20chatbot.md) )
-	- 
+
+Resource: [[deeplearning.ai Courses for developing a chatbot]]
