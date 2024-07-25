@@ -8,12 +8,13 @@
 		- Transforming text (e.g., translation, spelling & grammar correction)
 		- Expanding (e.g., automatically writing emails)
 	4. Build a custom chatbot (a pizza bot with GUI)
-2. [LangChain for LLM Application Development - DeepLearning.AI](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/) : 1 hr : need to invest  time to become adept at the langchain framework!
+	[[ChatGPT Prompt Engineering Course Notes]]
+1. [LangChain for LLM Application Development - DeepLearning.AI](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/) : 1 hr : need to invest  time to become adept at the langchain framework!
 	1. to take your chatbot to next level by 
 		1. adding memory
 		2. as reasoning agents
 		3. Q&A on proprietary documents
-3. [Building Systems with the ChatGPT API - DeepLearning.AI](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/) : 1 hr 
+2. [Building Systems with the ChatGPT API - DeepLearning.AI](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/) : 1 hr 
 	1. Build a A customer service chatbot
 	2. Multistage prompts: to split complex tasks into a pipeline of subtasks
 	3. Evaluate your LLM inputs and outputs for safety, accuracy, and relevance
