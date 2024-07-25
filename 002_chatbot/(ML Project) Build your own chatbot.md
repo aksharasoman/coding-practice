@@ -13,7 +13,8 @@ It is fun to build.
 
 ### Implementation - Aspects to Consider
 1. OpenAI API key used in deeplearning.ai course is not free. Hence, instead of openai, use a free LLM API - checkout gemini 
-2. 
+2. Using [panel](https://panel.holoviz.org/index.html) python library to build chat GUI 
+3. 
 ### Reference: 
 [Your Guide to Generative AI Courses - DeepLearning.AI](https://www.deeplearning.ai/resources/generative-ai-courses-guide/): outlines courses by DL.ai on chatbots.
 
