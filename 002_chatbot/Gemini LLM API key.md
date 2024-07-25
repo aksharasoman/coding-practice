@@ -9,5 +9,9 @@ model: Gemini 1.5 Flash
 
 *** 
 
-
 [Gemini API quickstart - Code](https://ai.google.dev/gemini-api/docs/quickstart?lang=python) : This quickstart shows you how to get started with the Gemini API using the SDK of your choice.
+
+[GitHub - google-gemini/cookbook: Examples and guides for using the Gemini API.](https://github.com/google-gemini/cookbook) 
+
+
+
