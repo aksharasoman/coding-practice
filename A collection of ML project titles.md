@@ -11,6 +11,12 @@
 - [ ] [Building an End-to-End Predictive Maintenance Machine Learning Application \[MLOps\] | by Abhishek Chandragiri | Medium](https://medium.com/@abhishekgoud1212/building-an-end-to-end-predictive-maintenance-machine-learning-application-mlops-ecff82f5d103)   
 - [ ] [[Gen AI Projects in Coursera]] 
 
+### My Ideas
+- [ ] Book suggestion bot: Which book to read next? 
+	- choose from genres
+	- last read books
+- [ ] 
+
 
 
 ## Websites with ML/DL projects' list
