@@ -21,10 +21,12 @@ It is fun to build.
 Egs: [barista bot](https://aistudio.google.com/app/prompts/barista-bot)
 
 ### Objective
-Build a chatbot for a pizzeria for taking orders using Gemini 1.5 Flash model and budil 
-
+Build a chatbot for a pizzeria for taking orders using Gemini 1.5 Flash model and build GUI using "Panel" library.
 ###### Followup queries:
 1. Llama model vs gemini - performance comparison for conversational tasks
+2. Any other chatbot application related to my life : book suggestion bot?? (tough)
+
+
 ### Reference: 
 [Your Guide to Generative AI Courses - DeepLearning.AI](https://www.deeplearning.ai/resources/generative-ai-courses-guide/): outlines courses by DL.ai on chatbots.
 

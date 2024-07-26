@@ -10,6 +10,7 @@
 - [ ] [Deep Learning Project for Text Detection in Images using Python](https://www.projectpro.io/project-use-case/text-detection-in-images-using-python) 
 - [ ] [Building an End-to-End Predictive Maintenance Machine Learning Application \[MLOps\] | by Abhishek Chandragiri | Medium](https://medium.com/@abhishekgoud1212/building-an-end-to-end-predictive-maintenance-machine-learning-application-mlops-ecff82f5d103)   
 - [ ] [[Gen AI Projects in Coursera]] 
+- [ ]  developing a recommendation system to suggest personalized products for customers (e-commerce)
 
 ### My Ideas
 - [ ] Book suggestion bot: Which book to read next? 
