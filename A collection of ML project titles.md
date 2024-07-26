@@ -30,5 +30,5 @@
 
 
 Related:
-[[Pipeline of creating a git repo|How to create a github repo for your project]]
+[[Pipeline of creating a git repo|How to create a github repo for your project]] (i)
 [[Building a Machine Learning Portfolio - A Webpage]]
