@@ -30,5 +30,5 @@
 
 
 Related:
-[[Pipeline of creating a git repo|How to create a github repo for your project]] (i)
-[[Building a Machine Learning Portfolio - A Webpage]]
+[[Pipeline of creating a git repo|How to create a github repo for your project]] (in obsidian-vault)
+[[Building a Machine Learning Portfolio - A Webpage]] (in obsidian-vault)
