@@ -23,7 +23,12 @@ Egs: [barista bot](https://aistudio.google.com/app/prompts/barista-bot)
 ### Objective
 Build a chatbot for a pizzeria for taking orders using Gemini 1.5 Flash model and build GUI using "Panel" library
 #### Tasks:
-1. 
+1. import necessary LLM libraries and api key
+2. configuration
+3. function to receive a list of prompts & pass to LLM & return response
+4. function to collect context 
+5. build chat interface 
+6. host it in server ?
 
 ###### Followup queries:
 1. Llama model vs gemini - performance comparison for conversational tasks
