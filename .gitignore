@@ -1,3 +1,4 @@
 .obsidian
 posts-quarto
 .DS_Store
+.venv/
