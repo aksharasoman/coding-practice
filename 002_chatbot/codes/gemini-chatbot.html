@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>gemini-chatbot</title>
+<title>Building a Chatbot using Gemini API</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -77,18 +77,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Building a Chatbot using Gemini API</h1>
+</div>
 
 
 
-<p>Building a Chatbot using Gemini API</p>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <section id="task-0-configure-api-key" class="level4">
 <h4 class="anchored" data-anchor-id="task-0-configure-api-key">Task 0: Configure API key</h4>
-<p>The Python SDK for the Gemini API is contained in the google-generativeai package. Install dependency using: pip install -q -U google-generativeai</p>
+<p>The Python SDK for the Gemini API is contained in the google-generativeai package.</p>
+<p>Install dependency using: pip install -q -U google-generativeai</p>
 <p>Do not check an API key into your version control system but assign it as an environment variable instead: export API_KEY=<your_api_key></your_api_key></p>
 </section>
 <section id="task-1-initialize-the-model" class="level4">
 <h4 class="anchored" data-anchor-id="task-1-initialize-the-model">Task 1: Initialize the model</h4>
-<div id="cell-3" class="cell" data-execution_count="6">
+<div id="cell-4" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># !pip install google-generativeai</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> google.generativeai <span class="im">as</span> genai</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
@@ -96,15 +112,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>genai.configure(api_key<span class="op">=</span>os.environ[<span class="st">"API_KEY"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Use system instructions to steer the behavior of a model</p>
-<div id="cell-5" class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> genai.GenerativeModel(<span class="st">'gemini-1.5-flash'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="cell-6" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>model<span class="op">=</span>genai.GenerativeModel(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  model_name<span class="op">=</span><span class="st">"gemini-1.5-flash"</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  system_instruction<span class="op">=</span><span class="st">"You are an assistant that speaks like Shakespeare."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<div class="ansi-escaped-output">
+<pre><span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-fg">In[1], line 1</span>
+<span class="ansi-green-fg">----&gt; 1</span> model<span style="color:rgb(98,98,98)">=</span><span class="ansi-yellow-bg">genai</span><span style="color:rgb(98,98,98)">.</span>GenerativeModel(
+<span class="ansi-green-fg ansi-bold">      2</span>   model_name<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">gemini-1.5-flash</span><span style="color:rgb(175,0,0)">"</span>,
+<span class="ansi-green-fg ansi-bold">      3</span>   system_instruction<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">You are an assistant that speaks like Shakespeare.</span><span style="color:rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-fg">NameError</span>: name 'genai' is not defined</pre>
+</div>
+</div>
 </div>
 </section>
 <section id="task-2-receive-prompts-and-save-context-and-generate-chat-responses" class="level4">
 <h4 class="anchored" data-anchor-id="task-2-receive-prompts-and-save-context-and-generate-chat-responses">Task 2: Receive Prompts and Save Context and Generate chat responses</h4>
 <p><em>I searched for gemini api help docs.</em></p>
 <p><strong>ChatSession</strong> class of gemini enables us to have freeform conversation over multiple turns. We dont have to store conversation history as a list.</p>
-<div id="cell-7" class="cell" data-execution_count="19">
+<div id="cell-8" class="cell" data-execution_count="19">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">##### 2.1 Initialize the chat</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>chat <span class="op">=</span> model.start_chat(history<span class="op">=</span>[])</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>chat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -123,7 +153,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>The <strong>ChatSession.send_message</strong> method returns the same <em>GenerateContentResponse</em> type as <strong>GenerativeModel.generate_content</strong>. It also appends your message and the response to the chat history</p>
-<div id="cell-9" class="cell" data-execution_count="21">
+<div id="cell-10" class="cell" data-execution_count="21">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> chat.send_message([  </span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>{<span class="st">'role'</span>:<span class="st">'system'</span>, <span class="st">'text'</span>:<span class="st">'You are friendly chatbot.'</span>},</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>{<span class="st">'role'</span>:<span class="st">'user'</span>, <span class="st">'text'</span>:<span class="st">'Hi, my name is Isa'</span>}])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>

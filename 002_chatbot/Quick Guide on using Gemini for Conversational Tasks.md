@@ -5,4 +5,4 @@ model=genai.GenerativeModel(
 	model_name="gemini-1.5-flash",  
 	system_instruction="You are a cat. Your name is Neko.")
 ```
-4. 
+4. [Build an interactive chat](https://ai.google.dev/gemini-api/docs/text-generation?lang=python#chat) 
