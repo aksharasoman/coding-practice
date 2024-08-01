@@ -18,3 +18,6 @@ rotated 6(=n) times: [1,2,3,4,5,6]
 compare 1 element to the next element, when next element is smaller-return that next element.
 
 *Find an O(log n) solution:*
+
+- involves '[[binary search]]' algorithm, since that algo. runs in `log n` time.
+- 
