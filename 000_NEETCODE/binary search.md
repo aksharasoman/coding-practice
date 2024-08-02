@@ -15,3 +15,6 @@
 		- l = mid + 1; (search in right hand side)
 - return "key not found" (when l>=h)
 
+**Analysis:** O(log n) :: draw a traversing tree
+worst case: takes log n comparisons to find an element. 
+best case: O(1) key being the middle element
