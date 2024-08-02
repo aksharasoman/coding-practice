@@ -12,6 +12,7 @@ It is fun to build.
 [[Key Aspects of Building a Chatbot.md]]
 [[deeplearning.ai Courses for developing a chatbot]]
 [[Quick Guide on using Gemini for Conversational Tasks]]
+
 ### Implementation - Aspects to Consider
 1. OpenAI API key used in deeplearning.ai course is not free. Hence, instead of openai, use a free LLM API - 
 	1. [[Gemini LLM API key]] : free-tier option available
