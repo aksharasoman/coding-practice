@@ -14,4 +14,4 @@
 	- else:
 		- l = mid + 1; (search in right hand side)
 - return "key not found" (when l>=h)
-	
+
