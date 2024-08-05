@@ -19,5 +19,4 @@ compare 1 element to the next element, when next element is smaller-return that 
 
 *Find an O(log n) solution:*
 
-- involves '[[binary search]]' algorithm, time taken for search for an element in binary search is `log n`.
-- 
+- involves '[[binary search]]' algorithm, since the time taken to search for an element in binary search is `log n`.
