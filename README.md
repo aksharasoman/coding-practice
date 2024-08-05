@@ -5,7 +5,7 @@ The solutions are in Python3. Required explanations are provided as comments wit
 
 - You can find the list of questions that are covered in this repo [here](questions_list.md)
 
-I recommend the following line-of-action if you are attempting a problem for the **first time**:
+I recommend the following line-of-action if you are attempting a problem for the _FIRST time_:
 
 ![neetcode-sop](images/neetcode-sop.png)
 
