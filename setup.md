@@ -15,7 +15,6 @@ Location: /Users/aksharas/2.Projects/*obsidian_ml_projects/000_coding-practice*
 	- Regular push/pull changes are reflected only in the parent repository.
 	- When I want to update the child repository, run the following command:
 	- `git subtree push --prefix 000_coding-practice https://github.com/aksharasoman/coding-practice.git main`
-		git subtree pull --prefix 000_coding-practice https://github.com/aksharasoman/coding-practice.git main --squash
 	
 - For more details: [Git Subtree basics · GitHub](https://gist.github.com/SKempin/b7857a6ff6bddb05717cc17a44091202)
 	
@@ -25,5 +24,5 @@ Location: /Users/aksharas/2.Projects/webpage_github/quartoFiles/posts/coding-pra
 - 'questions_list.qmd' needs to be regularly updated as 'questions_list.md' file gets updated in the script folder.
 
 ### SOP
-
+![](images/setup%2006Aug24_10-22.excalidraw)
 
