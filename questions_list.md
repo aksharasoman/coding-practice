@@ -1,7 +1,4 @@
 # List of Questions & Solutions
-"""" Editing in github.com child repo. is it reflected in the local child folder and in parent repo?"""""
-
-
 A full list of the topics and questions covered in this repo (so far). 
 
 ---
