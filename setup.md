@@ -16,7 +16,7 @@ Location: /Users/aksharas/2.Projects/*obsidian_ml_projects/000_coding-practice*
 	- When I want to update the child repository, run the following command:
 	- `git subtree push --prefix 000_coding-practice https://github.com/aksharasoman/coding-practice.git main`
 		git subtree pull --prefix 000_coding-practice https://github.com/aksharasoman/coding-practice.git main --squash
-	git subtree add --prefix 000_coding-practice https://github.com/aksharasoman/coding-practice.git main --squash
+	
 - For more details: [Git Subtree basics · GitHub](https://gist.github.com/SKempin/b7857a6ff6bddb05717cc17a44091202)
 	
 ### 2. webpage files: 
