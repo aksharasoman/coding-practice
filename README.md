@@ -1,4 +1,8 @@
 # Leetcode Solutions
+
+Making changes in the obsidian. this is subfolder. Is it updated in both child and parent repos?
+
+
 This is a collection of solutions to common Leetcode questions _(in progress)_, based on a list compiled by [Neetcode](https://neetcode.io/practice).
 
 The solutions are in Python3. Required explanations are provided as comments within the script file. If more detailed explanations are necessary, they will be included in an accompanying markdown file.
