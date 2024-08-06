@@ -1,7 +1,0 @@
-# Applications of GANs
-1. Image Synthesis
-2. Image-to-Image translation
-3. Text-to-Image translation
-
-### Reference
-1. [Intro to Generative Adversarial Networks (GANs) - PyImageSearch](https://pyimagesearch.com/2021/09/13/intro-to-generative-adversarial-networks-gans/)
