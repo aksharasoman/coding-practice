@@ -2,6 +2,11 @@
 Type: readme
 ---
 
+### SOP
+![](images/setup%2006Aug24_10-22.excalidraw)
+
+---
+
 2 local folders (macbook) for 'coding-practice':
 
 ### 1. Notes & script files:
@@ -22,7 +27,4 @@ Location: /Users/aksharas/2.Projects/*obsidian_ml_projects/000_coding-practice*
 Location: /Users/aksharas/2.Projects/webpage_github/quartoFiles/posts/coding-practice
 - Copied files required to update in the webpage to this folder: readme.md as index.qmd & questions_list.qmd 
 - 'questions_list.qmd' needs to be regularly updated as 'questions_list.md' file gets updated in the script folder.
-
-### SOP
-![](images/setup%2006Aug24_10-22.excalidraw)
 
